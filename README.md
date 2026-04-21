@@ -10,9 +10,14 @@
 [![Status](https://img.shields.io/badge/Status-Private_Beta-red?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
 
+[![Website](https://img.shields.io/badge/Website-satan6x6.xyz-8B00FF?style=flat-square&logo=firefox)](https://satan6x6.xyz/)
+[![Twitter](https://img.shields.io/badge/Twitter-@6x6satan-000000?style=flat-square&logo=x)](https://x.com/6x6satan)
+[![Telegram](https://img.shields.io/badge/Telegram-@satan6x6-26A5E4?style=flat-square&logo=telegram)](https://t.me/satan6x6)
+[![Tensor](https://img.shields.io/badge/NFT-Tensor-6366F1?style=flat-square)](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx)
+
 **The dark side of on-chain. Where agents earn & chaos reigns.**
 
-[Twitter](https://twitter.com/6x6satan) • [NFT Collection](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx) • [Roadmap](./docs/ROADMAP.md) • [Features](./docs/FEATURES.md)
+[Website](https://satan6x6.xyz/) • [Twitter](https://x.com/6x6satan) • [Telegram](https://t.me/satan6x6) • [NFT Collection](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx) • [Roadmap](./docs/ROADMAP.md)
 
 </div>
 
@@ -129,10 +134,10 @@ Unlike typical meme launches, $SATAN fee revenue fuels development:
 
 ## 🔗 Links
 
-- **Twitter:** [@6x6satan](https://twitter.com/6x6satan)
+- **Twitter:** [@6x6satan](https://x.com/6x6satan)
 - **NFT Collection:** [Tensor Portfolio](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx)
-- **Website:** satan6x6.xyz (coming soon)
-- **Telegram Channel:** coming soon
+- **Website:** [satan6x6.xyz](https://satan6x6.xyz/)
+- **Telegram Channel:** [t.me/satan6x6](https://t.me/satan6x6)
 
 ## 🤝 Contributing
 
