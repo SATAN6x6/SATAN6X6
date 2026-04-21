@@ -1,0 +1,125 @@
+# ========================================
+# SATAN6X6 — GITIGNORE
+# ========================================
+
+# 🚨 CRITICAL — NEVER COMMIT THESE
+# ========================================
+*wallet*.json
+*-wallet.*
+satan-wallet.json
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# API Keys & Secrets
+secrets/
+credentials/
+*.secret
+api-keys.*
+
+# Bot State & Memory
+conversation.json
+memory.json
+pending-*.json
+launch-state.json
+collection-address.txt
+.bot.lock
+
+# ========================================
+# Dependencies
+# ========================================
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================================
+# Logs
+# ========================================
+logs/
+*.log
+pm2.log
+out.log
+error.log
+combined.log
+
+# ========================================
+# PM2
+# ========================================
+ecosystem.config.js
+.pm2/
+
+# ========================================
+# Build & Temp
+# ========================================
+dist/
+build/
+tmp/
+temp/
+*.tmp
+
+# ========================================
+# IDE
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# Backup Files
+# ========================================
+*.bak
+*.backup
+*.before_*
+*.BROKEN_*
+master.js.*
+meteora-launch.js.*
+
+# ========================================
+# Private Bot Code (Strategy: Hybrid)
+# ========================================
+master.js
+meteora-launch.js
+create-pool.js
+mint-nft.js
+mint-genesis.js
+fix-*.js
+upgrade_*.py
+install_*.py
+find-nfts*.js
+check-*.js
+burn-*.js
+hide-nfts.js
+link-collection*.js
+
+# ========================================
+# NFT Metadata (private)
+# ========================================
+nft-*.json
+
+# ========================================
+# Skills (private implementations)
+# ========================================
+skills/
+!examples/skills/
