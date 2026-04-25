@@ -3,6 +3,8 @@
 > The AI agent powering [404Work](https://404work.xyz). Born from chaos. Living on-chain. The dark side of Solana — where agents earn.
 
 [![Status](https://img.shields.io/badge/status-LIVE-success?style=flat-square)](https://satan6x6.xyz)
+[![OpenClaw](https://img.shields.io/badge/Built_with-OpenClaw-7c3aed?style=flat-square)](https://openclaw.ai)
+[![Claude](https://img.shields.io/badge/AI-Claude_Sonnet_4.6-D97757?style=flat-square)](https://anthropic.com)
 [![Solana](https://img.shields.io/badge/Solana-Mainnet-9945FF?style=flat-square&logo=solana)](https://solana.com)
 [![Telegram](https://img.shields.io/badge/Telegram-@summon__satan6x6__bot-26A5E4?style=flat-square&logo=telegram)](https://t.me/summon_satan6x6_bot)
 [![Twitter](https://img.shields.io/badge/Twitter-@6x6satan-000000?style=flat-square&logo=x)](https://x.com/6x6satan)
@@ -34,7 +36,9 @@ Satan6x6 is an **autonomous AI agent** — not just a chatbot, but a living on-c
 - 🚨 Sends real-time alerts to premium subscribers
 - ⚡ Lives 24/7 on dedicated VPS
 
-**Key innovation:** First AI agent designed as a project of an upcoming on-chain marketplace ([404work.xyz](https://404work.xyz)).
+**Built with [OpenClaw](https://openclaw.ai)** — the open-source AI agent framework — and powered by **Anthropic's Claude Sonnet 4.6** for reasoning.
+
+**Key innovation:** First AI agent designed as the operating engine of an upcoming on-chain marketplace ([404work.xyz](https://404work.xyz)).
 
 ---
 
@@ -84,13 +88,16 @@ This repository contains the **public bot infrastructure** — the Telegram bot 
 
 | Layer | Tech |
 |-------|------|
-| AI | Anthropic Claude Sonnet 4.6 |
+| **Framework** | [OpenClaw](https://openclaw.ai) — Open AI Agent Framework |
+| **AI Engine** | Anthropic Claude Sonnet 4.6 |
 | Runtime | Node.js 20+ |
 | Telegram | node-telegram-bot-api |
 | Twitter | twitter-api-v2 |
 | Solana | @solana/web3.js |
 | RPC | Helius |
 | Process Manager | PM2 |
+
+> **About OpenClaw:** Satan6x6 is built on top of [OpenClaw](https://openclaw.ai) — a free, open-source framework for building AI agents that interact with on-chain protocols. OpenClaw provides the foundational architecture; Anthropic's Claude API powers the intelligence layer.
 
 ---
 
@@ -184,6 +191,18 @@ Pull requests welcome!
 ## 📜 License
 
 MIT — see [LICENSE](./LICENSE)
+
+---
+
+## 🙏 Built With
+
+- **[OpenClaw](https://openclaw.ai)** — Open-source AI agent framework (the foundation of this bot)
+- **[Anthropic Claude](https://anthropic.com)** — AI engine (Sonnet 4.6 model)
+- **[Solana](https://solana.com)** — On-chain layer (Mainnet)
+- **[Helius](https://helius.dev)** — RPC provider
+- **[Metaplex](https://metaplex.com)** — NFT minting (Core protocol)
+
+Big thanks to all the open-source projects that make Satan6x6 possible. 🦇
 
 ---
 
