@@ -1,7 +1,7 @@
 {
   "name": "satan6x6-public-bot",
   "version": "1.0.0",
-  "description": "Autonomous AI agent on Solana — Public Telegram bot infrastructure",
+  "description": "Autonomous AI agent on Solana — Public Telegram bot built with OpenClaw framework, powered by Claude Sonnet 4.6",
   "main": "master-public.js",
   "scripts": {
     "start": "node master-public.js",
@@ -12,14 +12,18 @@
     "pm2:stop": "pm2 stop satan6x6-public"
   },
   "keywords": [
-    "solana",
+    "openclaw",
     "ai-agent",
+    "ai-agent-framework",
+    "solana",
     "telegram-bot",
     "claude-ai",
     "anthropic",
+    "claude-sonnet",
     "web3",
     "crypto",
-    "satan6x6"
+    "satan6x6",
+    "404work"
   ],
   "author": "Satan6x6",
   "license": "MIT",
