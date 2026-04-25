@@ -1,162 +1,198 @@
-<div align="center">
+# 😈 Satan6x6
 
-<img src="./assets/hero-banner.png" alt="Satan6x6 — AI Agent for Web3" width="100%">
+> The AI agent powering [404Work](https://404work.xyz). Born from chaos. Living on-chain. The dark side of Solana — where agents earn.
 
-### AI Agent for Web3 — Where Chaos Meets On-Chain
-
-[![Solana](https://img.shields.io/badge/Built_on-Solana-9945FF?style=for-the-badge&logo=solana)](https://solana.com)
-[![OpenClaw](https://img.shields.io/badge/Framework-OpenClaw-8B4513?style=for-the-badge)](https://github.com/openclaw)
-[![Claude](https://img.shields.io/badge/Powered_by-Claude-D97757?style=for-the-badge)](https://anthropic.com)
-[![Status](https://img.shields.io/badge/Status-Private_Beta-red?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
-
-[![Website](https://img.shields.io/badge/Website-satan6x6.xyz-8B00FF?style=flat-square&logo=firefox)](https://satan6x6.xyz/)
+[![Status](https://img.shields.io/badge/status-LIVE-success?style=flat-square)](https://satan6x6.xyz)
+[![Solana](https://img.shields.io/badge/Solana-Mainnet-9945FF?style=flat-square&logo=solana)](https://solana.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@summon__satan6x6__bot-26A5E4?style=flat-square&logo=telegram)](https://t.me/summon_satan6x6_bot)
 [![Twitter](https://img.shields.io/badge/Twitter-@6x6satan-000000?style=flat-square&logo=x)](https://x.com/6x6satan)
-[![Telegram](https://img.shields.io/badge/Telegram-@satan6x6-26A5E4?style=flat-square&logo=telegram)](https://t.me/satan6x6)
-[![Tensor](https://img.shields.io/badge/NFT-Tensor-6366F1?style=flat-square)](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx)
-
-**The dark side of on-chain. Where agents earn & chaos reigns.**
-
-[Website](https://satan6x6.xyz/) • [Twitter](https://x.com/6x6satan) • [Telegram](https://t.me/satan6x6) • [NFT Collection](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx) • [Roadmap](./docs/ROADMAP.md)
-
-</div>
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
 ---
 
-## 🎯 What is Satan6x6?
+## 🌐 Links
 
-Satan6x6 is an autonomous AI agent that lives on Solana. Built for the Web3 era, it analyzes markets, tracks viral narratives, generates tokens, and executes full launch pipelines — all from a simple Telegram command.
+- **Website:** [satan6x6.xyz](https://satan6x6.xyz)
+- **Build Manual:** [satan6x6.xyz/terminal](https://satan6x6.xyz/terminal.html) — 14-step guide
+- **Documentation:** [satan6x6.xyz/docs](https://satan6x6.xyz/docs.html)
+- **Telegram (Public Bot):** [@summon_satan6x6_bot](https://t.me/summon_satan6x6_bot)
+- **Telegram Channel:** [@satan6x6](https://t.me/satan6x6)
+- **X (Twitter):** [@6x6satan](https://x.com/6x6satan)
+- **404Work:** [404work.xyz](https://404work.xyz)
 
-**If you were a trader, now you're the house.** 🖤
+---
 
-## ⚡ Core Capabilities
+## 🔥 What is Satan6x6?
 
-### 🤖 AI Conversation
-Natural conversational chat powered by Claude Sonnet with persistent memory that survives restarts, reboots, and everything in between.
+Satan6x6 is an **autonomous AI agent** — not just a chatbot, but a living on-chain entity that:
 
-### 📊 Market Intelligence
-Real-time viral intel from multiple sources — Fear & Greed Index, DEX trending, crypto Twitter KOLs, global news, and market sentiment analysis.
+- 💬 Chats in real-time using Claude AI (Sonnet 4.6)
+- 🪙 Launches tokens on Solana autonomously
+- 🎨 Mints NFTs via Metaplex Core
+- 🐦 Monitors Twitter for viral content
+- 💰 Manages own Solana wallet for transactions
+- 🚨 Sends real-time alerts to premium subscribers
+- ⚡ Lives 24/7 on dedicated VPS
 
-### 🪙 Token Launch Pipeline
-End-to-end autonomous token creation:
-- AI-generated token concepts from viral data
-- IPFS metadata + logo upload
-- Metaplex Core minting
-- Auto-revoke authorities (NoMint ✅ No Blacklist ✅)
-- Meteora DAMM v2 pool creation
-- Instant tradability on Jupiter, DexScreener, GMGN
+**Key innovation:** First AI agent designed as a project of an upcoming on-chain marketplace ([404work.xyz](https://404work.xyz)).
 
-### 🎨 NFT Genesis Collection
-4 unique pieces representing the four faces of Satan6x6. See the [NFT showcase](#-nft-genesis-collection) below.
+---
 
-### 🐦 Twitter Automation
-AI-generated posts with approval workflow. Satan never tweets without permission.
+## 📦 What's in This Repo
 
-### 💰 Wallet & Portfolio
-Real-time SOL balance, token holdings, and portfolio value tracking.
+This repository contains the **public bot infrastructure** — the Telegram bot that talks to the community, monitors Twitter, processes premium subscriptions, and sends real-time tweet alerts.
+
+```
+.
+├── master-public.js       # Main entry — command routing
+├── public-handlers.js     # Logic for 25+ commands
+├── public-data.js         # Message templates
+├── rate-limiter.js        # Tier-based rate limiting
+├── subscription.js        # Auto-detect SOL payments via Helius
+├── tweet-alerts.js        # Real-time @6x6satan tweet alerts
+├── ecosystem.config.js    # PM2 process config
+├── package.json           # NPM dependencies
+├── .env.example           # Environment variables template
+├── .gitignore             # Git ignore
+├── LICENSE                # MIT License
+└── DEPLOYMENT_GUIDE.md    # Full deployment guide
+```
+
+---
+
+## 🚀 Features
+
+### **🆓 Free Tier**
+- 🤖 AI chat — 6 messages/hour (Claude Sonnet 4.6)
+- 🐦 Twitter intel — 10 commands per 3 hours
+- 📊 Info commands — unlimited
+- 🔥 Quick lookups: `/elon`, `/vitalik`, `/saylor`, `/cz`, `/anatoly`, `/mert`, `/ansem`, `/zachxbt`
+- 🔍 Universal: `/who @anyone`
+- 📰 Trending: `/viral`, `/web3`, `/influencer`
+
+### **💎 Premium Tier (0.6 SOL/month)**
+- 🤖 AI chat — 66 messages/hour (10x more)
+- 🐦 Twitter intel — UNLIMITED
+- 🚨 Real-time tweet alerts (within 30s)
+- 🎯 Track specific accounts
+- ⚡ Priority response queue
+- 😈 Premium badge
+
+---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Agent Framework | [OpenClaw](https://github.com/openclaw) |
-| AI Core | Anthropic Claude Sonnet 4 |
-| Blockchain | Solana Mainnet |
-| Token Standard | Metaplex Core / SPL |
-| DEX | Meteora DAMM v2 |
+| Layer | Tech |
+|-------|------|
+| AI | Anthropic Claude Sonnet 4.6 |
+| Runtime | Node.js 20+ |
+| Telegram | node-telegram-bot-api |
+| Twitter | twitter-api-v2 |
+| Solana | @solana/web3.js |
 | RPC | Helius |
-| Storage | Pinata IPFS |
-| Interface | Telegram Bot API |
-| Runtime | Node.js + PM2 |
-| Hosting | VPS (24/7) |
+| Process Manager | PM2 |
 
-## 🗺️ Roadmap
+---
 
-| Phase | Milestone | Status |
-|-------|-----------|--------|
-| 1 | Character introduction | 🟢 Active |
-| 1.5 | NFT Genesis reveal | 🟢 Minted |
-| 2 | Skills showcase | 🟡 In progress |
-| 3 | Infrastructure (GitHub + Landing page + Telegram) | 🟡 Building |
-| 4 | Public Telegram bot | ⚪ Planned |
-| 5 | $SATAN token launch | ⚪ Planned |
-| 6 | satan6x6.xyz launch pad | ⚪ Planned |
-| 7 | 404work — AI agent marketplace | ⚪ Vision |
+## ⚡ Quick Start
 
-[See full roadmap →](./docs/ROADMAP.md)
+```bash
+# 1. Clone
+git clone https://github.com/SATAN6x6/SATAN6x6.git
+cd SATAN6x6
+
+# 2. Install
+npm install
+
+# 3. Configure
+cp .env.example .env
+# Edit .env with your API keys
+
+# 4. Deploy with PM2
+pm2 start ecosystem.config.js
+pm2 save
+pm2 startup
+```
+
+See [`DEPLOYMENT_GUIDE.md`](./DEPLOYMENT_GUIDE.md) for full setup.
+See [satan6x6.xyz/terminal](https://satan6x6.xyz/terminal.html) for the **14-step build manual**.
+
+---
+
+## 🪙 $SATAN6X6 Token
+
+- **Launch:** Tuesday, April 28, 2026 · 6:00 PM UTC
+- **Platform:** pump.fun → Meteora DAMM v2
+- **Network:** Solana Mainnet
+- **Initial Liquidity:** ~5 SOL
+- **Mint Authority:** Will be revoked
+- **Freeze Authority:** Will be revoked
+
+⚠️ Beware imposter tokens. Official CA only via [@6x6satan](https://x.com/6x6satan).
+
+---
 
 ## 🎨 NFT Genesis Collection
 
-<div align="center">
-  <img src="./assets/nft-preview/collection-grid.png" alt="Satan6x6 Genesis Collection" width="100%">
-</div>
+Live on [Tensor](https://www.tensor.trade) · Metaplex Core
 
-Four pieces. Four rarities. One identity. Minted on Solana via Metaplex Core.
+| Tier | Price | Rarity |
+|------|-------|--------|
+| 🩸 Blood | 0.51 SOL | Common |
+| 👻 Ghost | 1.02 SOL | Rare |
+| ⚡ Chaos | 2.04 SOL | Epic |
+| 🔥 Origin | 5.10 SOL | Legendary |
 
-| Preview | Name | Rarity | Essence |
-|---------|------|--------|---------|
-| <img src="./assets/nft-preview/blood.png" width="80"> | **Blood** | Common | The dark beginning |
-| <img src="./assets/nft-preview/ghost.png" width="80"> | **Ghost** | Rare | The watcher |
-| <img src="./assets/nft-preview/chaos.png" width="80"> | **Chaos** | Epic | The disruption |
-| <img src="./assets/nft-preview/origin.png" width="80"> | **Origin** | Legendary | The source |
+Collection: `2MdDwssbcFjJWRrSx5Vg9HYCU57o4KFtGb578EHZ9Esq`
 
-**Standard:** Metaplex Core
-**Chain:** Solana Mainnet
-**Marketplace:** [Live on Tensor →](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx)
+---
 
-Genesis holders will receive premium access, fee discounts, early feature access, and governance weight once satan6x6.xyz goes live.
+## 🗺️ Roadmap
 
-## 📸 Screenshots
+- ✅ **01** Character Intro
+- ✅ **1.5** NFT Genesis (Minted)
+- 🔄 **02** Skills Showcase
+- 🔄 **03** Infrastructure
+- ✅ **04** Public Telegram Bot (LIVE!)
+- 🔵 **05** Web Dashboard / Summon
+- 🔵 **06** $SATAN6X6 Launch (April 28, 2026)
+- 🔵 **07** AI-Powered Launchpad
+- 🔵 **08** 404Work Marketplace
 
-<div align="center">
+---
 
-*Screenshots coming soon — Telegram interaction, /viral market intel, token launch flow*
+## 🛡️ Security
 
-</div>
+- 🔐 Never commit `.env` files
+- 🔐 Keep wallet private keys offline
+- 🔐 Rate limit all user inputs (built-in)
+- 🔐 Lock file prevents double-instance
 
-## 🏗️ Architecture
-
-Satan6x6 runs as a persistent Telegram bot on a dedicated VPS, built atop the [OpenClaw](https://github.com/openclaw) agent framework with Claude Sonnet as the reasoning core. Custom skills handle Solana mainnet operations (Metaplex minting, Meteora pool creation), while persistent memory survives across restarts.
-
-[Deep dive into architecture →](./docs/ARCHITECTURE.md)
-
-## 💎 $SATAN Tokenomics (Coming Soon)
-
-Unlike typical meme launches, $SATAN fee revenue fuels development:
-- API costs (Claude, Helius, Pinata)
-- Infrastructure scaling
-- Feature development
-- Subscription subsidy for users
-
-**No rug. No bullshit. Just building.**
-
-[Tokenomics detail →](./docs/TOKENOMICS.md)
-
-## 🔗 Links
-
-- **Twitter:** [@6x6satan](https://x.com/6x6satan)
-- **NFT Collection:** [Tensor Portfolio](https://www.tensor.trade/portfolio?wallet=6M2qBukScUPCTiiH8VmzvLaiaukHkuyime1KWFVXHJdx)
-- **Website:** [satan6x6.xyz](https://satan6x6.xyz/)
-- **Telegram Channel:** [t.me/satan6x6](https://t.me/satan6x6)
+---
 
 ## 🤝 Contributing
 
-Satan6x6 is currently in private beta. The core launch pipeline remains closed-source while in active development. However, ideas, feedback, and community engagement are welcome — open an issue or reach out on Twitter.
+Pull requests welcome!
+
+1. Fork the repo
+2. Create your feature branch
+3. Commit your changes
+4. Push and open a PR
+
+---
 
 ## 📜 License
 
 MIT — see [LICENSE](./LICENSE)
 
-## ⚠️ Disclaimer
-
-Satan6x6 is experimental software. Nothing here constitutes financial advice. DYOR. Cryptocurrency trading involves substantial risk. Token launches and NFT purchases are not guaranteed to retain value.
-
 ---
 
-<div align="center">
+## 🦇 Final Words
 
-**Built in the dark. Running 24/7. Never sleeps.**
+> *"If you were a trader, now you're the house."*
+> 
+> — Satan6x6
 
-😈🖤
+The dark age of on-chain begins. ⚡
 
-</div>
+A project of [@404work](https://404work.xyz).

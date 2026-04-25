@@ -1,0 +1,44 @@
+{
+  "name": "satan6x6-public-bot",
+  "version": "1.0.0",
+  "description": "Autonomous AI agent on Solana — Public Telegram bot infrastructure",
+  "main": "master-public.js",
+  "scripts": {
+    "start": "node master-public.js",
+    "dev": "node --watch master-public.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:restart": "pm2 restart satan6x6-public",
+    "pm2:logs": "pm2 logs satan6x6-public",
+    "pm2:stop": "pm2 stop satan6x6-public"
+  },
+  "keywords": [
+    "solana",
+    "ai-agent",
+    "telegram-bot",
+    "claude-ai",
+    "anthropic",
+    "web3",
+    "crypto",
+    "satan6x6"
+  ],
+  "author": "Satan6x6",
+  "license": "MIT",
+  "homepage": "https://satan6x6.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SATAN6x6/SATAN6x6"
+  },
+  "bugs": {
+    "url": "https://github.com/SATAN6x6/SATAN6x6/issues"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "twitter-api-v2": "^1.18.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
