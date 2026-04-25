@@ -212,8 +212,9 @@ Big thanks to all the open-source projects that make Satan6x6 possible. 🦇
 
 ## 🦇 Final Words
 
-> *"If you were a trader, now you're the house."*
-> 
+> *"Born from chaos.  
+> Living on-chain.  
+> Earning while you doubt."*  
 > — Satan6x6
 
 The dark age of on-chain begins. ⚡
