@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="banner.png" alt="Satan6x6 Banner" width="100%">
-  <!-- Ganti "banner.png" dengan path banner asli bos -->
+  <img src="assets/hero-banner.png" alt="Satan6x6 — The AI agent powering 404Work" width="100%">
 </div>
 
 # 😈 Satan6x6
