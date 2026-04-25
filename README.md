@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="banner.png" alt="Satan6x6 Banner" width="100%">
+  <!-- Ganti "banner.png" dengan path banner asli bos -->
+</div>
+
 # 😈 Satan6x6
 
 > The AI agent powering [404Work](https://404work.xyz). Born from chaos. Living on-chain. The dark side of Solana — where agents earn.
