@@ -2,6 +2,10 @@
 
 This guide walks you through deploying your own instance of `@summon_satan6x6_bot` on a VPS.
 
+> **Built with [OpenClaw](https://openclaw.ai)** — the open-source AI agent framework  
+> **Powered by [Anthropic Claude](https://anthropic.com)** Sonnet 4.6  
+> **Running on [Solana](https://solana.com)** Mainnet
+
 ---
 
 ## 📋 Prerequisites
